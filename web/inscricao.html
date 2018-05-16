@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="André Vila Verde">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Loja Online</title>
+        <link rel=stylesheet type="text/css" href="css/style.css">
+
+    </head>
+    
+    <body>
+        <header>
+            <nav >
+                <ul class="menu">
+                    <li><a class="active" href="inscricao.html">Inscreva-se</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="carinho.html">Carrinho</a></li>
+                    <li ><a href="#">Login </a></li>
+                  </ul>
+            </nav>
+        </header>
+        <section>
+            <form action="contacto">
+                <fieldset>
+                    <legend>Preenchimento obrigatório</legend>
+                    Nome: <input type="text" name="frist_name" required>
+                    Apelido: </label><input type="text" name="LastName" value="Apelido" required>
+                    Email:</label> <input type="email" name="email" value="email" required>
+                    Password:</label> <input type="password" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Opcional</legend>
+                    Morada:</label> <input type="text" name="morada" value="Morada">
+                    Código Postal:<input type="text" maxlength="4" name="cp4">-<input type="text" maxlength="3" name="cp3">
+                </fieldset>
+                <input type="submit" value="Enviar">
+                <input type="reset" name="Apagar" value="Apagar">
+            </form>
+        </section>
+        <footer><p>Criado por: <em>André Vila Verde</em></p></footer>
+    </body>
+    
+</html>

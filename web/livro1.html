@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function valida() {
+    var mensagem = "";
+    if (document.forms.registo.nome.value.length==0) {
+        mensagem=mensagem+"introduza nome!\n";
+    }
+    if (document.forms.registo.numero.value.length < 7) {
+    	mensagem=mensagem+"escreva todos o numero de BI!\n";
+    }
+    else if (isNan (document.forms.registo.numero.value)){
+    	mensagem=mensagem+"anpenas numeros. \n";
+    }
+}
+</script>
+</head>
+<body>
+
+<form name="registo" action="validacao.html"
+onsubmit="valida()" method="post">
+Nome: <input type="text" name="nome" size="20" maxlength="30"> <br>
+BI: <input type="text" name="numero" size="8" maxlength="8"> <br>
+Ano de nascimento: <input type="text" name="ano" maxlength="6"> <br>
+Mes de nascimento: <input type="text" name="mes" maxlength="2"> <br>
+Email: <input type="text" name="correio"  maxlength="20"> <br>
+<input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+Raspberry Pi 3 Modelo B SBC
+
+o parece idêntico ao do Pi Raspberry Pi 3 Modelo B 2 B à primeira vista. é o mesmo tamanho e tem praticamente a mesma componentes na placa. então qual é a diferença? o novo Pi 3 traz mais poder de processamento e on-board de conectividade, economizando tempo com o desenvolvimento de suas aplicações. perfeito para o seu Internet das Coisas (IoT) projetos.
+
+Pi 3 em comparação com Pi 2
+
+1. More velocidade do processador. a CPU no Pi 3 é uma vez e meia mais rápido em 1.2 GHz. o seu Pi placa tem um desempenho melhor.
+
+2. On-board de conectividade. o Pi 3 características 802.11 b/g/n LAN Sem Fio e Bluetooth Classic & Baixo Consumo de Energia (BLE). você pode ficar ligado muito mais rápido sem a necessidade de qualquer dispositivo externo.
+
+3. 2.5 Uma fonte de alimentação. com mais velocidade do processador e on-board de conectividade, você vai precisar de mais potência. fontes de alimentação para placas Pi anterior não será suficiente. você vai precisar do Oficial Alimentação Raspberry Pi
+
+4. Novos componentes. o Pi 3 possui um chip antena onde LEDs de estado foram localizados anteriormente. os LEDs de status ainda estão na placa, mesmo ao lado do slot para cartão microSD.
+
+novo para Raspberry Pi?
+
+o Raspberry Pi é um único computador de bordo-desenvolvido para incentivar e ajudar o ensino de programação e de computação. é também um ponto de partida fantástico para o desenvolvimento da Internet das Coisas (IoT) projetos. o baixo custo e 'plug and play' natureza de Pi faz para uma placa que é acessível a todos e tem inúmeras opções de conectividade. Pi é o perfeito ferramenta experimental, se você quiser usá-lo como um computador desktop, media center, servidor ou monitoramento/dispositivo de segurança dentro de sua casa. não tem limites. sistemas operacionais Linux-baseado executado no Pi com abundância de acesso ao software livre e downloads. o que é mais, há uma grande comunidade lá fora-olhar atDesignSpark Pi, o engenheiro de projeto da comunidade em RS.

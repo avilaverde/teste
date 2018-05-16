@@ -1,0 +1,39 @@
+body
+{
+    background-color: aquamarine
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.menu li {float: right;}
+
+ul.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.menu li a:hover:not(.active) {background-color: #111;}
+
+ul.menu li a.active {background-color: #4CAF50;}
+
+ /* ul.menu li.right {float: right;}*/
+
+@media screen and (max-width: 600px){
+    ul.menu li.right, 
+    ul.menu li {float: none;}
+}
+footer {
+	background-color: #333;
+	color: white;
+	padding: 14px 14px;
+	text-align: center;
+}
